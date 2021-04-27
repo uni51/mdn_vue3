@@ -7,11 +7,13 @@
     <script src="https://unpkg.com/vue@3.0.0/dist/vue.global.js"></script>
   </head>
   <body>
-    <h1>ToDo アプリ</h1>
     <div id="app">
-      <input type="text" v-model="message" />
-      <textarea v-model="message"></textarea>
-      <p>{{ message }}</p>
+      <select v-model="author" multiple>
+        <option value="Yamada">Yamada</option>
+        <option value="Sekiguchi">Sekiguchi</option>
+        <option value="Nagasawa">Nagasawa</option>
+      </select>
+      <p>{{ author }}</p>
     </div>
     <script src="sample.js"></script>
   </body>
