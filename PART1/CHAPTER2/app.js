@@ -1,3 +1,3 @@
-VTTCue.createApp({
+Vue.createApp({
 
 }).mount('#app')
